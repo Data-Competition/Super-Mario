@@ -68,7 +68,7 @@
 
 |PCA 2차원|PCA 1차원|t-SNE|
 |--------------|--------------|--------|
-|![2diPCA](./images/2diPCA.png)|![1diPCA](./images/1diPCA.png)|![t-SNE](./images/t-SNE.png)|
+|![2diPCA](./feature_plot/2d-PCA.png)|![1diPCA](./feature_plot/1d-PCA.png)|![t-SNE](./feature_plot/t-SNE.png)|
 
 <!-- TODO
 one-hot-encoding 을 했을 때의 장점과 쓰임새
@@ -82,7 +82,7 @@ one-hot-encoding 을 했을 때의 장점과 쓰임새
 
 |decision tree|특성 중요도|
 |---------------|----------------|
-|![decision tree](./images/dicisionTree.png)|![important](./images/important.png)|
+|![decision tree](./feature_plot/decisionTree.png)|![important](./feature_plot/feature_importance.png)|
 
 <!-- TODO
 나머지 모델에 대한 설명
