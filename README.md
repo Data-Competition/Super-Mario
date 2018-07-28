@@ -60,7 +60,7 @@
 - **Stack View** 를 이용하여 독버섯과 식용버섯의 특성마다의 분포를 알 수 있었습니다.
 
 ### box-plot, PCA, t-SNE 방법을 통한 데이터 시각화
-[mushroom-report-v2.ipynb](https://github.com/Data-Competition/Super-Mario/blob/dev/mushroom-report-v2.ipynb)
+[mushroom-report-v1.ipynb](https://github.com/Data-Competition/Super-Mario/blob/dev/mushroom-report-v1.ipynb)
 
 <!-- TODO: box-plot, PCA, t-SNE 를 이용한 시각화를 통해 알 수 있는 점 -->
 <!-- TODO: 나머지 도표에 대한 설 -->
