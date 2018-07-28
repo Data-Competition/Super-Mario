@@ -66,9 +66,18 @@
 <!-- TODO: 나머지 도표에 대한 설 -->
 - PCA, t-SNE를 이용하여 데이터 분포의 차원을 줄여, 분포의 한 눈에 확인 할 수 있도록 했습니다.
 
-|PCA 2차원|PCA 1차원|t-SNE|
-|--------------|--------------|--------|
-|![2diPCA](./feature_plot/2d-PCA.png)|![1diPCA](./feature_plot/1d-PCA.png)|![t-SNE](./feature_plot/t-SNE.png)|
+|PCA 2차원|PCA 1차원|
+|--------------|--------------|
+|![2diPCA](./feature_plot/2d-PCA.png)|![1diPCA](./feature_plot/1d-PCA.png)|
+
+|scree plot (random mapping)|scree plot (one-hot data)|
+|--------|--------------|
+|![2diPCA](./feature_plot/scree_plot.png)|![1diPCA](./feature_plot/scree_plot-with-one-hot.png)|
+
+|t-SNE (random mapping)|t-SNE (one-hot data)|
+|--------------|--------------|
+![t-SNE](./feature_plot/t-SNE.png) | ![t-SNE-one-hot](./feature_plot/t-SNE-with-one-hot.png)
+
 
 <!-- TODO
 one-hot-encoding 을 했을 때의 장점과 쓰임새
