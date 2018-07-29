@@ -32,8 +32,6 @@
 |population|서식 분포 유형|abundant=a, clustered=c, numerous=n, scattered=s, several=v, solitary=y|
 |habitat|서식지|grasses=g, leaves=l, meadows=m, paths=p, urban=u, waste=w, woods=d|
 
-![mush room](resource/mush room.png)
-
 - 주름살 (gill) : 생식세포인 홀씨를 생성하는 버섯의 한 부분. 갓의 아랫면에 있다.
 
 - 대주머니 / 균포 (volva): 미성숙한 버섯을 완전히 감싸고 있던 막이 줄기가 생장함에 따라 찢어진 흔적.
@@ -53,3 +51,48 @@
 ## 사용법
 ### Dependency Install
     $ python3 -m pip install -r requirements.txt
+
+## 데이터 분석 및 설명
+
+### Stack View를 이용한 데이터 시각화
+[char-test-v2.ipynb](https://github.com/Data-Competition/Super-Mario/blob/dev/char-test-v2.ipynb)
+
+- **Stack View** 를 이용하여 독버섯과 식용버섯의 특성마다의 분포를 알 수 있었습니다.
+
+### box-plot, PCA, t-SNE 방법을 통한 데이터 시각화
+[mushroom-report-v1.ipynb](https://github.com/Data-Competition/Super-Mario/blob/dev/mushroom-report-v1.ipynb)
+
+<!-- TODO: box-plot, PCA, t-SNE 를 이용한 시각화를 통해 알 수 있는 점 -->
+<!-- TODO: 나머지 도표에 대한 설 -->
+- PCA, t-SNE를 이용하여 데이터 분포의 차원을 줄여, 분포의 한 눈에 확인 할 수 있도록 했습니다.
+
+|PCA 2차원|PCA 1차원|
+|--------------|--------------|
+|![2diPCA](./feature_plot/2d-PCA.png)|![1diPCA](./feature_plot/1d-PCA.png)|
+
+|scree plot (random mapping)|scree plot (one-hot data)|
+|--------|--------------|
+|![2diPCA](./feature_plot/scree_plot.png)|![1diPCA](./feature_plot/scree_plot-with-one-hot.png)|
+
+|t-SNE (random mapping)|t-SNE (one-hot data)|
+|--------------|--------------|
+![t-SNE](./feature_plot/t-SNE.png) | ![t-SNE-one-hot](./feature_plot/t-SNE-with-one-hot.png)
+
+
+<!-- TODO
+one-hot-encoding 을 했을 때의 장점과 쓰임새
+### one-hot-encoding 
+-->
+
+### Decision Tree를 이용한 모델, 특성 중요도
+[decision_tree_limit_dept.ipynb](https://github.com/Data-Competition/Super-Mario/blob/dev/decision_tree_limit_dept.ipynb)
+
+- 버섯의 특성을 이용하여 Decision Tree를 구성해보고, Stack View에서 확인한 특성의 중요도를 나누어 보았습니다.
+
+|decision tree|특성 중요도|
+|---------------|----------------|
+|![decision tree](./feature_plot/decisionTree.png)|![important](./feature_plot/feature_importance.png)|
+
+<!-- TODO
+나머지 모델에 대한 설명
+-->
